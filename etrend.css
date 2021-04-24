@@ -1,0 +1,26 @@
+body{   
+    background-color: lightgray;
+}
+
+main{   
+    background: lightgrey;
+
+
+}
+
+h1{ 
+text-align: center;
+}
+
+a:link{
+    color: black; text-decoration: underline
+}
+
+a:visited{
+    color: black; text-decoration: underline
+
+}
+
+a:hover{
+    color: blue; font: xx-large;
+}
