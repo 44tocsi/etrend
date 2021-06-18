@@ -152,18 +152,19 @@
             <p><b>Ez összesen: 2174 Kcal, 212 g szénhidrát, 207,5 g fehérje, 46,7 g zsír.</b></p></dl>
   </div>
 
-    <!--szamolo ablak-->
+<!--szamolo ablak-->
     <div class="col-sm-12 col-md-12 col-lg-6">
       <div class="card">
         <div class="card-body">
         <h5 class="card-title">BMI-kalkulátor</h5>
         <p class="card-text">
           <!--szamolo-->
-          <script src="sulykalkulaltor.js"></script>
+          <script src="sulykalkulaltorV01.js"></script>
           <form>
-            <input type="text" id ="meret" placeholder="Magasságod...">
-            <input type="text" id ="suly" placeholder="Súlyod..."><button type="button" onclick="sulyszamolas()" >Számolj!</button>
-            <p id="eredmeny"></p>
+            <input type="text" class="adat" id ="meret" placeholder="Magasságod...">
+            <input type="text" class="adat" id ="suly" placeholder="Súlyod...">
+            <button type="button" class="gomb" onclick="sulyszamolas()" >Számolj!</button>
+            <button id="eredmeny" class="gomb" disabled>Eredmény</button>
           </form>
           <!--szamolo vege-->
           </div></p>
