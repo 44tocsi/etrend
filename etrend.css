@@ -34,5 +34,23 @@ button{
 
 .card{
     width: 420px;
-    height: 135px;
+    height: 145px;
+}
+
+.adat{
+    width: 175px;
+    
+}
+
+.card-title{
+    text-align: center;
+}
+
+.gomb{
+    width: 175px;
+    margin-top: 10px;
+}
+
+#eredmeny{
+    margin-left: 31px;
 }
