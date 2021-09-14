@@ -13,6 +13,18 @@ h1{
 text-align: center;
 }
 
+#eredmeny{
+    border: 2px outset black;
+  background-color: rgb(236, 238, 238);
+  position: absolute;
+  right: 3.5%;
+  bottom: 12%;
+  height: 30px;
+  width: 175px;
+  text-align: center;
+  font-weight: bold;
+}
+
 a:link{
     color: black; 
 }
@@ -39,6 +51,7 @@ button{
 
 .adat{
     width: 175px;
+    text-align: center;
     
 }
 
