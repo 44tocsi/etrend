@@ -176,6 +176,24 @@
 </div>
   </section>
 <!--szoveg vege-->
+<script>
+  var input = document.getElementById("meret");
+  input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+     event.preventDefault();
+     document.getElementById("gomb").click();
+    }
+  });
+  </script>
+  <script>
+    var input = document.getElementById("suly");
+    input.addEventListener("keyup", function(event) {
+      if (event.keyCode === 13) {
+       event.preventDefault();
+       document.getElementById("gomb").click();
+      }
+    });
+    </script>
     </main>
 </body>
 </html>
