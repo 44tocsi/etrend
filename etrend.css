@@ -47,6 +47,8 @@ button{
 .card{
     width: 410px;
     height: 145px;
+    position: relative;
+    right: 20px;
 }
 
 .adat{
